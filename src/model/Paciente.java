@@ -1,5 +1,7 @@
 package model;
 
+import model.planos.Plano;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
