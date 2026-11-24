@@ -1,15 +1,13 @@
 package model.especialidades;
 
-import model.Medico;
-import model.enums.Planos;
+import model.planos.Plano;
 
-import java.util.ArrayList;
-
-public abstract class Especialidade {
-
-    protected Planos[] planosAtendidos;
-    protected int qtdAtendimentos;
-    protected String nome;
-
-
+public interface Especialidade {
+    String getNome();
+    default int getLimiteDeConsultas() {
+        return 3;
+    }
+    default boolean aceitaPlano(Plano plano){
+        return true;
+    }
 }

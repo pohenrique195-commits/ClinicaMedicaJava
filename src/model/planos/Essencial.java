@@ -5,4 +5,8 @@ public class Essencial extends Plano {
         this.preco = 114;
         this.qtdConsultas = 5;
     }
+    @Override
+    public String getNome() {
+        return "Essencial";
+    }
 }
