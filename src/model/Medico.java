@@ -2,7 +2,6 @@ package model;
 
 import model.enums.Planos;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Medico {
