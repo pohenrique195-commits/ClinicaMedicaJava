@@ -1,5 +1,7 @@
 package model;
 
+import model.planos.Plano;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -12,6 +14,7 @@ public class Paciente {
     private Plano plano;
     private ArrayList<Mensagem> mensagens;
     private ArrayList<Prontuario> historico;
+
 
     public Paciente(String nome, LocalDate nascimento, String cpf, Plano plano){
         this.nome = nome;

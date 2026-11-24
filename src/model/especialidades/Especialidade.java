@@ -5,10 +5,11 @@ import model.enums.Planos;
 
 import java.util.ArrayList;
 
-public class Especialidade extends Medico {
+public abstract class Especialidade {
+
+    protected Planos[] planosAtendidos;
+    protected int qtdAtendimentos;
+    protected String nome;
 
 
-    public Especialidade(String nome, String CRM, ArrayList<Planos> planosAtendidos, float valorBase) {
-        super(nome, CRM, planosAtendidos, valorBase);
-    }
 }
