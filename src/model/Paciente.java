@@ -15,6 +15,7 @@ public class Paciente {
     private ArrayList<Mensagem> mensagens;
     private ArrayList<Prontuario> historico;
 
+
     public Paciente(String nome, LocalDate nascimento, String cpf, Plano plano){
         this.nome = nome;
         this.nascimento = nascimento;
