@@ -1,4 +1,4 @@
-package model;
+package br.uece.clinica.model;
 
 import br.uece.clinica.model.Medico;
 

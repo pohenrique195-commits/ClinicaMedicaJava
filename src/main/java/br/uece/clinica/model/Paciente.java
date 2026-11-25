@@ -1,7 +1,6 @@
 package br.uece.clinica.model;
 
 import br.uece.clinica.model.planos.Plano;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 

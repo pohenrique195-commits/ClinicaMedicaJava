@@ -1,9 +1,5 @@
-package model;
+package br.uece.clinica.model;
 
-import br.uece.clinica.model.Medico;
-import br.uece.clinica.model.Paciente;
-import br.uece.clinica.model.Pagamento;
-import br.uece.clinica.model.Prontuario;
 import br.uece.clinica.model.enums.StatusConsulta;
 import java.util.ArrayList;
 import java.util.UUID;
@@ -14,7 +10,7 @@ public class Consulta {
     private Medico medico;
     private Paciente paciente;
     private StatusConsulta estado;
-    private Pagamento pagamento;
+    private Conta pagamento;
     private boolean usaPlano;
     private Prontuario prontuario;
     private ArrayList<Paciente> listaDeEspera;
