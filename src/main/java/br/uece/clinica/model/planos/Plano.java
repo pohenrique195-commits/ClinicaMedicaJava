@@ -1,0 +1,11 @@
+package br.uece.clinica.model.planos;
+
+public abstract class Plano {
+    protected float preco;
+    protected int qtdConsultas;
+
+    public abstract String getNome();
+
+}
+
+
