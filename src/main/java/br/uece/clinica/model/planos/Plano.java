@@ -1,11 +1,16 @@
 package br.uece.clinica.model.planos;
 
 public abstract class Plano {
-    protected float preco;
-    protected int qtdConsultas;
+    private final String nome;
+    private final double preco;
 
-    public abstract String getNome();
+    protected Plano(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
 
+    public String getNome() { return nome; }
+    public double getPreco() { return preco; }
+
+    public abstract int getLimiteConsultas();
 }
-
-
